@@ -1,0 +1,7 @@
+﻿  Array.c
+D:\CProjects\Array\Array\Array.c(58,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
+D:\CProjects\Array\Array\Array.c(58,18): warning C4101:  'e' :참조되지 않은 지역 변수입니다.
+D:\CProjects\Array\Array\Array.c(58,9): warning C4101:  'b' :참조되지 않은 지역 변수입니다.
+D:\CProjects\Array\Array\Array.c(58,12): warning C4101:  'c' :참조되지 않은 지역 변수입니다.
+D:\CProjects\Array\Array\Array.c(58,15): warning C4101:  'd' :참조되지 않은 지역 변수입니다.
+  Array.vcxproj -> D:\CProjects\Array\Debug\Array.exe

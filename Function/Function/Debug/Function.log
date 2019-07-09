@@ -1,0 +1,20 @@
+﻿  Function.c
+D:\CProjects\Function\Function\Function.c(33,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(44,1): error C2084:  'void output()' 함수에 이미 본문이 있습니다.
+D:\CProjects\Function\Function\Function.c(18): message :  'output'의 이전 정의를 참조하십시오.
+D:\CProjects\Function\Function\Function.c(55,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(75,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(95,10): warning C4013:  'scanfs_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\CProjects\Function\Function\Function.c(120,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(150,1): error C2084:  'int input()' 함수에 이미 본문이 있습니다.
+D:\CProjects\Function\Function\Function.c(91): message :  'input'의 이전 정의를 참조하십시오.
+D:\CProjects\Function\Function\Function.c(196,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(216,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Function\Function\Function.c(9): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Function\Function\Function.c(222,1): error C2084:  'void aaa()' 함수에 이미 본문이 있습니다.
+D:\CProjects\Function\Function\Function.c(189): message :  'aaa'의 이전 정의를 참조하십시오.

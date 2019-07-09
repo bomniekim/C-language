@@ -1,0 +1,3 @@
+﻿  ArrayEX.c
+D:\CProjects\ArrayEX\ArrayEX\ArrayEX.c(181,6): warning C4101:  'gugu' :참조되지 않은 지역 변수입니다.
+  ArrayEX.vcxproj -> D:\CProjects\ArrayEX\Debug\ArrayEX.exe

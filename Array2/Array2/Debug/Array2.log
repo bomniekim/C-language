@@ -1,0 +1,23 @@
+﻿  Array2.c
+D:\CProjects\Array2\Array2\Array2.c(76,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(98,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(118,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(140,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(164,9): warning C4477:  'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+D:\CProjects\Array2\Array2\Array2.c(169,10): warning C4477:  'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+D:\CProjects\Array2\Array2\Array2.c(197,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(212,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(223,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(230,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(237,9): warning C4477:  'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+D:\CProjects\Array2\Array2\Array2.c(241,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Array2\Array2\Array2.c(18): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Array2\Array2\Array2.c(253,1): error C2059:  구문 오류: '%'

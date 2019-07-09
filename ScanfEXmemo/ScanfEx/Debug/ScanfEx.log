@@ -1,0 +1,3 @@
+﻿  ScanfEX.c
+D:\CProjects\ScanfEx\ScanfEx\ScanfEX.c(93,1): warning C4305:  '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  ScanfEx.vcxproj -> D:\CProjects\ScanfEx\Debug\ScanfEx.exe

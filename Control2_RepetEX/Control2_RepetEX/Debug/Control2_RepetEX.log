@@ -1,0 +1,2 @@
+﻿LINK : fatal error LNK1168: D:\CProjects\Control2_RepetEX\Debug\Control2_RepetEX.exe을(를) 쓰기용으로 열 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(725,5): error MSB6006: "link.exe"이(가) 종료되었습니다(코드: 1168).

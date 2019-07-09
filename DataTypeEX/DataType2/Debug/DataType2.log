@@ -1,0 +1,4 @@
+﻿  DataType2.c
+D:\CProjects\DataType2\DataType2\DataType2.c(203,21): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\DataType2\DataType2\DataType2.c(203,21): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 3개가 제공되었습니다.
+  DataType2.vcxproj -> D:\CProjects\DataType2\Debug\DataType2.exe
