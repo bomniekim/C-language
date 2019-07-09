@@ -239,49 +239,60 @@ void main()
 
 	int i, k;
 	int sum = 0;
+	int subtract=0;
 	
 	for (i = 0; i < 4; i++)
 	{
 		for (k = 0; k < 3; k++)
 		{
-		sum = sum + arr1[i][k];
 
-		}	
+			sum = sum + arr1[i][k];
+
+		}
 		
-		printf("행 간의 합: %d \n", sum);
-
-	}		
-
-
-
-
-
-
-
-
-
-
-
-
+		printf("arr1의 %d행 간의 합: %d \n",i+1,sum);
+		sum = 0;
+	}
+	printf("\n");
 
 	/*
-	int i, k;
+	for (i = 0; i < 4; i++)
+	{
+		for (k = 0; k < 3; k++)
+		{
+			subtract = arr1[i][k]-subtract;
+
+		}
+
+		printf("arr1의 %d행 간의 차: %d \n", i + 1, subtract);
+	*/
+	}
+	printf("\n");
 
 	for (i = 0; i < 4; i++)
 	{
 		for (k = 0; k < 3; k++)
 		{
-			int hangsum=0;
-			hangsum = hangsum + arr1[i][k];
 
-			printf("arr1의 %d행 간의 합: %d \n", i + 1, hangsum);
+			sum = sum + arr2[i][k];
 
 		}
-		printf("\n");
-		
-	}*/
+
+		printf("arr2의 %d행 간의 합: %d \n", i + 1, sum);
+		sum = 0;
+	}
 
 
+
+
+
+
+
+
+
+
+
+	
 }
 
 
