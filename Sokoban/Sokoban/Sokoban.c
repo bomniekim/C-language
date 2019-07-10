@@ -282,7 +282,7 @@ int checkGameOver()
 	{
 		for (int x = 0; x < 20; x++)
 		{
-			if (map[y][x] == 1) return 0;
+			if (map[y][x] == GOAL) return 0;
 		}
 
 	}
@@ -301,53 +301,64 @@ void keyPro()
 	{
 	case UP:
 		if (map[posY - 1][posX] == WALL) return;
+
+		if ((map[posY - 1][posX] == BRICK) && (map[posY - 2][posX] == WALL)) return;
+
 		if (map[posY - 1][posX] == DOT)
 		{
 			map[posY][posX] = DOT;
 			posY--;
 			map[posY][posX] = ARROW;
 		}
-		if (map[posY][posX - 1] == BRICK)
+		if ((map[posY - 1][posX] == BRICK) && (map[posY - 2][posX] == DOT))
 		{
 			map[posY][posX] = DOT;
 			posY--;
 			map[posY][posX] = ARROW;
 			map[posY - 1][posX] = BRICK;
-		}break;
+		}
+		return;
 
 	case DOWN:
 		//아래칸이 비어있지 않은가?
 		if (map[posY + 1][posX] == WALL) return;
+
+		if ((map[posY + 1][posX] == BRICK) && (map[posY + 2][posX] == WALL)) return;
+
 		if (map[posY + 1][posX] == DOT)
 		{
 			map[posY][posX] = DOT;
 			posY++;
 			map[posY][posX] = ARROW;
 		}
-		if (map[posY + 1][posX] == BRICK)
+		if ((map[posY + 1][posX] == BRICK) && (map[posY + 2][posX] == DOT))
 		{
 			map[posY][posX] = DOT;
 			posY++;
 			map[posY][posX] = ARROW;
 			map[posY + 1][posX] = BRICK;
-		}break;
+		}
+		return;
 
 	case LEFT:
 		//왼쪽칸이 비어있지 않은가?
 		if (map[posY][posX - 1] == WALL) return;
+
+		if ((map[posY][posX - 1] == BRICK) && (map[posY][posX - 2] == WALL)) return;
+
 		if (map[posY][posX - 1] == DOT)
 		{
 			map[posY][posX] = DOT;
 			posX--;
 			map[posY][posX] = ARROW;
 		}
-		if (map[posY][posX - 1] == BRICK)
+		if ((map[posY][posX - 1] == BRICK) && (map[posY][posX - 2] == DOT))
 		{
 			map[posY][posX] = DOT;
 			posX--;
 			map[posY][posX] = ARROW;
 			map[posY][posX - 1] = BRICK;
-		}break;
+		}return;
 
 
 
@@ -355,20 +366,21 @@ void keyPro()
 	case RIGHT:
 		//오른쪽칸이 비어있지 않은가?
 		if (map[posY][posX + 1] == WALL) return;
+
+		if ((map[posY][posX + 1] == BRICK) && (map[posY][posX + 2] == WALL)) return;
+
 		if (map[posY][posX + 1] == DOT)
 		{
 			map[posY][posX] = DOT;
 			posX++;
 			map[posY][posX] = ARROW;
 		}
-		if (map[posY][posX + 1] == BRICK)
+		if ((map[posY][posX + 1] == BRICK) && (map[posY][posX + 2] == DOT || map[posY][posX + 2] ==GOAL))
 		{
 			map[posY][posX] = DOT;
 			posX++;
 			map[posY][posX] = ARROW;
 			map[posY][posX + 1] = BRICK;
-		}break;
-
-
+		}return;
 	}
 }

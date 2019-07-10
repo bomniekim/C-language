@@ -8,7 +8,7 @@ void main()
 
 	//포인터변수 선언문법
 	// 자료형 *변수명;  pointing하는 변수의 자료형
-	int *p; //주소를 가짐으로써 누군가를 가리킴 (시작주소를): 4byte
+	int *p = NULL; //주소를 가짐으로써 누군가를 가리킴 (시작주소를): 4byte
 
 	p = &a; //포인터 변수에 주소값 대입
 
@@ -173,5 +173,84 @@ void main()
 	//arr[4]=*(arr+4) 배열의 []는 arr의 첫집의 n번째 옆집을 역참조한다는 의미 //변수명이 아니였다~!
 
 }
-	
+
+
+
+//3. 문자열 저장
+
+void main()
+{
+	char str[6] = "Hello"; //문자열 끝 문자 (\0)때문에 5+1로 배열 처리 -> 초기화
+
+	// str="Hello"; 가 에러가 나는 이유는 배열의 이름은 pointer상수이므로 값을 바꿀 수 없다. // 4byte의 주소를 str에 넣을 수 없다. 
+
+	str[2] = '\0';
+
+	printf("%s", &str[0]); //%s는 값이 아닌 주소를 달라고 함			&str[0]=str
+
+	printf("%s", "Hello"); //문자열은 값을 주는 것이 아니라 H의 주소를 주는 것 
+}
+
+
+void main()
+{
+	char str[6];
+	//str="Hello"; //에러!
+
+	char* p;
+	p = "Hello"; //문자열 저장 (문자열을 가리키는 것) //오른쪽에 값이 아닌 주소를 주는 것
+
+
+	printf("  %p  \n", p); //p의 값인 '주소 출력'
+	printf("  %s  \n", *p); //*p가 가리키는 것은 'H' = 72 // %s는 주소를 달라고 함 -> #72의 값을 줌 ->에러
+	printf("  %s  \n", p); //OK : %s는 주소를 달라고 하니깐 
+
+
+
+	char str[6] = "Hello"; 
+	printf("%s \n", str);
+
+	//위 아래의 값은 같아. 
+
+	char* p = "Hello"; 
+	printf("  %s  \n", p);
+
+	//<<배열과 포인터의 차이>>
+	//배열은 길이값에 민감하지만 포인터는 문자열의 시작 주소만을 저장하니깐 길이와 상관없음
+	//배열은 사용자로부터 값을 입력받을 수 있지만 포인터는 불가 -> 포인터의 유일한 단점
+
+}
+
+void main()
+{
+	char* name1 = "sam";
+	char* name2 = "robin";
+	char* name3 = "kim";
+
+
+	char* names[3]; //char형 포인터 변수 배열
+
+	names[0] = "sam";//시작주소
+	names[1] = "robin";//시작주소
+	names[2] = "kim";//시작주소
+
+	char* names[3] = { "sam", "robin", "kim" }; //3층으로 된 2차원 배열로 간주가능
+
+
+	printf(" %s \n", names[0]); //sam
+	printf(" %s \n", names[1]); //robin
+	printf(" %s \n", names[2]); //kim
+
+	printf(" %s \n", names[1][2]); //robin의 b!
+
+	names[2][2] = 's'; //에러! 문자 상수인 m에 s 대입 불가
+
+
+
+}
+
+void main()
+{
+	int a = 10;
+}
 
