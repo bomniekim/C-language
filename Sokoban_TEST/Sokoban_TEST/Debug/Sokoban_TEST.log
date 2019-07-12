@@ -1,4 +1,0 @@
-﻿  sokobanTest.c
-D:\CProjects\Sokoban_TEST\Sokoban_TEST\sokobanTest.c(112,6): warning C4101:  'y' :참조되지 않은 지역 변수입니다.
-D:\CProjects\Sokoban_TEST\Sokoban_TEST\sokobanTest.c(112,9): warning C4101:  'x' :참조되지 않은 지역 변수입니다.
-  Sokoban_TEST.vcxproj -> D:\CProjects\Sokoban_TEST\Debug\Sokoban_TEST.exe
