@@ -1,0 +1,32 @@
+﻿  Structure.c
+D:\CProjects\Structure\Structure\Structure.c(70,13): error C2088:  '+': struct에 맞지 않습니다.
+D:\CProjects\Structure\Structure\Structure.c(121,1): error C2011:  'Student': 'struct' 형식 재정의
+D:\CProjects\Structure\Structure\Structure.c(13): message :  'Student' 선언을 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(130,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Structure\Structure\Structure.c(34): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(140,29): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(140,29): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(141,31): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(141,31): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(142,31): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(142,31): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(148,26): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(148,26): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(149,28): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(149,28): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(150,29): warning C4474:  'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CProjects\Structure\Structure\Structure.c(150,29): message :  자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CProjects\Structure\Structure\Structure.c(160,1): error C2011:  'Student': 'struct' 형식 재정의
+D:\CProjects\Structure\Structure\Structure.c(13): message :  'Student' 선언을 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(171,1): error C2084:  'void output(Student)' 함수에 이미 본문이 있습니다.
+D:\CProjects\Structure\Structure\Structure.c(25): message :  'output'의 이전 정의를 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(201,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Structure\Structure\Structure.c(34): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(208,13): error C2440:  '함수': 'Student [3]'에서 'Student'(으)로 변환할 수 없습니다.
+D:\CProjects\Structure\Structure\Structure.c(208,13): warning C4024:  'output': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\CProjects\Structure\Structure\Structure.c(225,6): error C2371:  'main': 재정의. 기본 형식이 다릅니다.
+D:\CProjects\Structure\Structure\Structure.c(34): message :  'main' 선언을 참조하십시오.
+D:\CProjects\Structure\Structure\Structure.c(226,1): error C2143:  구문 오류: ';'이(가) '{' 앞에 없습니다.
+  Struct_Advanced.c
+  코드를 생성하고 있습니다...
+D:\CProjects\Structure\Structure\Structure.c(202): error C1075:  '{': 일치하는 토큰을 찾을 수 없습니다.

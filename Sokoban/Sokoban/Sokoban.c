@@ -315,7 +315,7 @@ void keyPro()
 			map[posY][posX] = DOT;
 			posY--;
 			map[posY][posX] = ARROW;
-			map[posY - 1][posX] = BRICK;
+			map[posY-1][posX] = BRICK;
 		}
 		return;
 
@@ -384,3 +384,4 @@ void keyPro()
 		}return;
 	}
 }
+//dot¿Ã æ∆¥“∂ß 

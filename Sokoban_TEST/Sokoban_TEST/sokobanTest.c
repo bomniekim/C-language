@@ -201,7 +201,7 @@ void keyPro()
 
 		if ((map[posY][posX + 1] == BRICK) && (map[posY][posX + 2] == WALL)) return;
 
-		if (map[posY][posX + 1] == DOT)
+		if (map[posY][posX + 1] == DOT || map[posY][posX + 1] == GOAL)
 		{
 			map[posY][posX] = DOT;
 			posX++;
@@ -215,5 +215,5 @@ void keyPro()
 			map[posY][posX + 1] = BRICK;
 		}return;
 	}
-
+}
 	//  상하좌우가 dot이 아니면으로 생각해보기~
